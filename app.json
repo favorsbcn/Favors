@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Favors",
+    "slug": "favors",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "0.1.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon60x60.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "facebookScheme": "***************",
+    "facebookAppId": "**************",
+    "facebookDisplayName": "Favors",
+    "ios": {
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "buildNumber": "7",
+      "bundleIdentifier": "com.favors.timestore",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Esta aplicación requiere acceso a tu localización para ver los posts que hay cerca tuyo",
+        "NSPhotoLibraryUsageDescription": "Esta aplicación requiere acceso a tu librería de fotos para subir una foto a tu perfil o a un post",
+        "NSCameraUsageDescription": "Esta aplicación requiere acceso a tu camara para subir fotos a tus posts o enviarlas por el chat"
+      }
+    },
+    "android": {
+      "package": "com.favors.timestore",
+      "config": {
+        "googleMaps": {
+          "apiKey": "*******************"
+        }
+      },
+      "googleServicesFile": "./google-services_prod.json",
+      "versionCode": 4
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon-white.png"
+    }
+  }
+}

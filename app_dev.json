@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Favors",
+    "slug": "favors",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android"],
+    "version": "0.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon60x60.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "facebookScheme": "*********",
+    "facebookAppId": "********",
+    "facebookDisplayName": "Favors",
+    "ios": {
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.pereserrabosch.timestore"
+    },
+    "android": {
+      "package": "com.pereserrabosch.timestore",
+      "config": {
+        "googleMaps": {
+          "apiKey": "**************"
+        }
+      },
+      "googleServicesFile": "./google-services_dev.json",
+      "versionCode": 2
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon-white.png"
+    }
+  }
+}

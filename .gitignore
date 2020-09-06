@@ -1,0 +1,22 @@
+# Expo
+.expo
+.expo-shared
+
+# macOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Expo web env
+.env.development
+
+# Android Studio
+.idea
+
+# Node
+/node_modules
+/npm-debug.log
+/package-lock.json
+/yarn.lock
+yarn-error.log
